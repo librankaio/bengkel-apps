@@ -40,7 +40,7 @@ class GaleryController extends Controller
             $strupload = "upload".$i;
             $hdnupload = "hdnupload".$i;
             // $imgname = $request->$strupload->getClientOriginalName();
-            // dd($request->$hdnupload);            
+            // dd($request->$hdnupload);           
             // dd($request->file('upload0')->hashname());
             if($request->file($strupload)!=null){
                 $request->file($strupload)->store('car-images');

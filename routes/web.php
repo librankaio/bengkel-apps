@@ -6,7 +6,7 @@ use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UpdateStatsController;
 use App\Http\Controllers\UploadPhotoController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\File;
+// use Illuminate\Support\Facades\File;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,9 +32,9 @@ Route::post('/', [LoginController::class, 'postLogin'])->name('postlogin');
 Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::group(['middleware' => ['auth']], function () {
-    File::link(
-        storage_path('app/public'), public_path('storage')
-    );
+    // File::link(
+    //     storage_path('app/public'), public_path('storage')
+    // );
 
     //Updload Photo
     Route::get('/upload', [UploadPhotoController::class, 'index'])->name('upload');

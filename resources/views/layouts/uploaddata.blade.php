@@ -244,7 +244,8 @@
         </div> --}}
         <div class="row pb-5 pt-3">
             <div class="col-md-4">
-                <button type="submit" class="btn btn-primary" formaction="{{ route('saveuploadphoto') }}">Save</button>
+                <button id="save" type="submit" class="btn btn-primary"
+                    formaction="{{ route('saveuploadphoto') }}">Save</button>
                 <button type="reset" class="btn btn-outline-primary" id="clear">Clear</button>
             </div>
         </div>
@@ -351,6 +352,40 @@
             }
             // alert("TEST");
             // $("#uploadimg1").show();
+        });    
+        
+        $("#save").click(function( e ) {            
+            if($('#upload0')[0].files.length == 0 && $('#desc0').val() != "") {
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload1')[0].files.length == 0 && $('#desc1').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload2')[0].files.length == 0 && $('#desc2').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload3')[0].files.length == 0 && $('#desc3').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload4')[0].files.length == 0 && $('#desc4').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload5')[0].files.length == 0 && $('#desc5').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload6')[0].files.length == 0 && $('#desc6').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#upload7')[0].files.length == 0 && $('#desc7').val() != ""){
+                alert("Gambar Tidak boleh kosong!");
+                return false;
+            }else if($('#platnum').val() == ''){
+                alert("Platnum Tidak boleh Kosong!");
+                return false;
+            }else if($('#notwoh').val() == ''){
+                alert("No WO Tidak boleh Kosong!");
+                return false;
+            };
         });
     });    
 

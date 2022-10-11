@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 // use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Storage;
 
 class GaleryController extends Controller
 {
@@ -39,12 +40,18 @@ class GaleryController extends Controller
         for ($i = 0; $i < 8; $i++) {
             $strupload = "upload".$i;
             $hdnupload = "hdnupload".$i;
+            $desc = "desc".$i;
+            // dd($request->$hdnupload);
             // $imgname = $request->$strupload->getClientOriginalName();
             // dd($request->$hdnupload);           
             // dd($request->file('upload0')->hashname());
             if($request->file($strupload)!=null){
+                if(Storage::exists('car-images/'.$request->$hdnupload)){
+                    Storage::delete('car-images/'.$request->$hdnupload);
+                    // dd($hdnupload);
+                }
                 $request->file($strupload)->store('car-images');
-                DB::table('twoh_pic')->where('name_mcar','=',$request->platnum)->where('pic','=',$request->$hdnupload)->update(['pic'=>$request->file($strupload)->hashname()]);
+                DB::table('twoh_pic')->where('name_mcar','=',$request->platnum)->where('pic','=',$request->$hdnupload)->update(['pic'=>$request->file($strupload)->hashname(), 'note' => $request->$desc]);
             }
         }  
         return Redirect::route('galery')->with( [

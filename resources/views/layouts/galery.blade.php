@@ -27,7 +27,7 @@
                         <label for="desc0" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc0" name="desc0">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload0" name="hdnupload0" readonly>
+                    <input type="text" class="form-control" id="hdnupload0" name="hdnupload0" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload0" name="upload0" type="file" onchange="readURL0(this);"
@@ -42,6 +42,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult0" src="" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -52,7 +53,7 @@
                         <label for="desc1" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc1" name="desc1">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload1" name="hdnupload1" readonly>
+                    <input type="text" class="form-control" id="hdnupload1" name="hdnupload1" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload1" name="upload1" type="file" onchange="readURL1(this);"
@@ -68,6 +69,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult1" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -78,7 +80,7 @@
                         <label for="desc2" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc2" name="desc2">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload2" name="hdnupload2" readonly>
+                    <input type="text" class="form-control" id="hdnupload2" name="hdnupload2" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload2" name="upload2" type="file" onchange="readURL2(this);"
@@ -94,6 +96,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult2" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -104,7 +107,7 @@
                         <label for="desc3" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc3" name="desc3">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload3" name="hdnupload3" readonly>
+                    <input type="text" class="form-control" id="hdnupload3" name="hdnupload3" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload3" name="upload3" type="file" onchange="readURL3(this);"
@@ -120,6 +123,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult3" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -130,7 +134,7 @@
                         <label for="desc4" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc4" name="desc4">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload4" name="hdnupload4" readonly>
+                    <input type="text" class="form-control" id="hdnupload4" name="hdnupload4" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload4" name="upload4" type="file" onchange="readURL4(this);"
@@ -146,6 +150,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult4" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -156,7 +161,7 @@
                         <label for="desc5" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc5" name="desc5">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload5" name="hdnupload5" readonly>
+                    <input type="text" class="form-control" id="hdnupload5" name="hdnupload5" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload5" name="upload5" type="file" onchange="readURL5(this);"
@@ -172,6 +177,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult5" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -182,7 +188,7 @@
                         <label for="desc6" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc6" name="desc6">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload6" name="hdnupload6" readonly>
+                    <input type="text" class="form-control" id="hdnupload6" name="hdnupload6" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload6" name="upload6" type="file" onchange="readURL6(this);"
@@ -198,6 +204,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult6" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -208,7 +215,7 @@
                         <label for="desc7" class="form-label">Deskripsi</label>
                         <input type="text" class="form-control" id="desc7" name="desc7">
                     </div>
-                    <input type="text" class="form-control" id="hdnupload7" name="hdnupload7" readonly>
+                    <input type="text" class="form-control" id="hdnupload7" name="hdnupload7" readonly hidden>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
                         style="border:1px solid #ced4da; border-radius:5px;">
                         <input id="upload7" name="upload7" type="file" onchange="readURL7(this);"
@@ -224,6 +231,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult7" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>

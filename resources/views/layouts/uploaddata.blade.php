@@ -50,6 +50,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult0" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -75,6 +76,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult1" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -100,6 +102,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult2" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -125,6 +128,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult3" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -150,6 +154,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult4" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -175,6 +180,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult5" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -200,6 +206,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult6" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>
@@ -225,6 +232,7 @@
                     </div>
                     <div class="image-area mt-4"><img id="imageResult7" src="#" alt=""
                             class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                    <hr>
                 </div>
             </div>
         </section>

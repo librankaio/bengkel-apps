@@ -11,7 +11,7 @@
     {{-- <form action=""> --}}
         <div class="row">
             <div class="col-md-6 py-3">
-                <h5>REPORTS</h5>
+                <h5>Laporan Status</h5>
             </div>
         </div>
         <div class="row">

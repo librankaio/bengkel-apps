@@ -32,7 +32,7 @@
                     <label for="formFile" class="form-label pb-3">Upload Gambar</label><button type="button"
                         class="btn btn-primary ms-3" id="addimg"><i class="fa fa-plus"></i></button>
                     <div class="description py-2">
-                        <label for="desc0" class="form-label">Deskripsi</label>
+                        <label for="desc0" class="form-label">Deskripsi #1</label>
                         <input type="text" class="form-control" id="desc0" name="desc0">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -58,7 +58,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc1" class="form-label">Deskripsi</label>
+                        <label for="desc1" class="form-label">Deskripsi #2</label>
                         <input type="text" class="form-control" id="desc1" name="desc1">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -84,7 +84,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc2" class="form-label">Deskripsi</label>
+                        <label for="desc2" class="form-label">Deskripsi #3</label>
                         <input type="text" class="form-control" id="desc2" name="desc2">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -110,7 +110,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc3" class="form-label">Deskripsi</label>
+                        <label for="desc3" class="form-label">Deskripsi #4</label>
                         <input type="text" class="form-control" id="desc3" name="desc3">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -136,7 +136,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc4" class="form-label">Deskripsi</label>
+                        <label for="desc4" class="form-label">Deskripsi #5</label>
                         <input type="text" class="form-control" id="desc4" name="desc4">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -162,7 +162,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc5" class="form-label">Deskripsi</label>
+                        <label for="desc5" class="form-label">Deskripsi #6</label>
                         <input type="text" class="form-control" id="desc5" name="desc5">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -188,7 +188,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc6" class="form-label">Deskripsi</label>
+                        <label for="desc6" class="form-label">Deskripsi #7</label>
                         <input type="text" class="form-control" id="desc6" name="desc6">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"
@@ -214,7 +214,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc7" class="form-label">Deskripsi</label>
+                        <label for="desc7" class="form-label">Deskripsi #8</label>
                         <input type="text" class="form-control" id="desc7" name="desc7">
                     </div>
                     <div class="input-group mb-3 px-2 py-1 bg-white shadow-sm"

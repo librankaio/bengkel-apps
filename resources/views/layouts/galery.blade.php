@@ -24,7 +24,7 @@
                     <label for="formFile" class="form-label pb-3">Upload Gambar</label><button type="button"
                         class="btn btn-primary ms-3" id="addimg"><i class="fa fa-plus"></i></button>
                     <div class="description py-2">
-                        <label for="desc0" class="form-label">Deskripsi</label>
+                        <label for="desc0" class="form-label">Deskripsi #1</label>
                         <input type="text" class="form-control" id="desc0" name="desc0">
                     </div>
                     <input type="text" class="form-control" id="hdnupload0" name="hdnupload0" readonly hidden>
@@ -50,7 +50,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc1" class="form-label">Deskripsi</label>
+                        <label for="desc1" class="form-label">Deskripsi #2</label>
                         <input type="text" class="form-control" id="desc1" name="desc1">
                     </div>
                     <input type="text" class="form-control" id="hdnupload1" name="hdnupload1" readonly hidden>
@@ -77,7 +77,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc2" class="form-label">Deskripsi</label>
+                        <label for="desc2" class="form-label">Deskripsi #3</label>
                         <input type="text" class="form-control" id="desc2" name="desc2">
                     </div>
                     <input type="text" class="form-control" id="hdnupload2" name="hdnupload2" readonly hidden>
@@ -104,7 +104,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc3" class="form-label">Deskripsi</label>
+                        <label for="desc3" class="form-label">Deskripsi #4</label>
                         <input type="text" class="form-control" id="desc3" name="desc3">
                     </div>
                     <input type="text" class="form-control" id="hdnupload3" name="hdnupload3" readonly hidden>
@@ -131,7 +131,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc4" class="form-label">Deskripsi</label>
+                        <label for="desc4" class="form-label">Deskripsi #5</label>
                         <input type="text" class="form-control" id="desc4" name="desc4">
                     </div>
                     <input type="text" class="form-control" id="hdnupload4" name="hdnupload4" readonly hidden>
@@ -158,7 +158,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc5" class="form-label">Deskripsi</label>
+                        <label for="desc5" class="form-label">Deskripsi #6</label>
                         <input type="text" class="form-control" id="desc5" name="desc5">
                     </div>
                     <input type="text" class="form-control" id="hdnupload5" name="hdnupload5" readonly hidden>
@@ -185,7 +185,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc6" class="form-label">Deskripsi</label>
+                        <label for="desc6" class="form-label">Deskripsi #7</label>
                         <input type="text" class="form-control" id="desc6" name="desc6">
                     </div>
                     <input type="text" class="form-control" id="hdnupload6" name="hdnupload6" readonly hidden>
@@ -212,7 +212,7 @@
             <div class="row py-2">
                 <div class="col-md-4">
                     <div class="description py-2">
-                        <label for="desc7" class="form-label">Deskripsi</label>
+                        <label for="desc7" class="form-label">Deskripsi #8</label>
                         <input type="text" class="form-control" id="desc7" name="desc7">
                     </div>
                     <input type="text" class="form-control" id="hdnupload7" name="hdnupload7" readonly hidden>

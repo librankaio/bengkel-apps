@@ -1,4 +1,11 @@
 @extends('main')
+@section('topscripts')
+<style type="text/css">
+    .dataTables_filter {
+        display: none;
+    }
+</style>
+@stop
 @section('content')
 <div class="container">
     {{-- <form action=""> --}}
@@ -47,7 +54,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-md-6 pb-3">
+                    {{-- <div class="col-md-6 pb-3">
                         <label for="status" class="form-label">Status</label>
                         <select class="form-select" aria-label="Default select example" id="status" name="status">
                             <option selected disabled>-- Pilih Status --</option>
@@ -59,7 +66,7 @@
                             <option value="poles">Poles</option>
                             <option value="finishing">Finishing</option>
                         </select>
-                    </div>
+                    </div> --}}
                     <div class="col-md- pb-3">
                         <button type="submit" formaction="{{ 'viewreports' }}" class="btn btn-primary px-5"><span>
                                 View</span></button>
@@ -69,12 +76,11 @@
             <div class="col-md-12">
                 <div class="table-responsive">
                     <table class="table table-striped table-hover" id="datatable">
-                        <caption>List of users</caption>
                         <thead>
                             <tr>
                                 <th scope="col" class="border-bottom-0 border-2">No</th>
                                 <th scope="col" class="border-bottom-0 border-2">No Plat</th>
-                                <th scope="col" class="border-bottom-0 border-2">WO</th>
+                                <th scope="col" class="border-bottom-0 border-2">Work Order</th>
                                 <th scope="col" class="border-bottom-0 border-2">Tgl Selesai</th>
                                 <th scope="col" class="border-bottom-0 border-2">Status</th>
                             </tr>
@@ -112,7 +118,7 @@
         // $('#datatable').dataTable(
         //     {"ordering":false});
 
-        $('#datatable').DataTable();
+        $('#datatable').DataTable({"ordering":false});
 
         $('.js-platnum').select2({
             placeholder : 'No Plat',

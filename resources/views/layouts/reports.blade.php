@@ -81,7 +81,9 @@
                                 <th scope="col" class="border-bottom-0 border-2">No</th>
                                 <th scope="col" class="border-bottom-0 border-2">No Plat</th>
                                 <th scope="col" class="border-bottom-0 border-2">Work Order</th>
-                                <th scope="col" class="border-bottom-0 border-2">Tgl Selesai</th>
+                                <th scope="col" class="border-bottom-0 border-2">Custome</th>
+                                <th scope="col" class="border-bottom-0 border-2">Asuransi</th>
+                                <th scope="col" class="border-bottom-0 border-2">Tgl WO</th>
                                 <th scope="col" class="border-bottom-0 border-2">Status</th>
                             </tr>
                         </thead>
@@ -97,6 +99,9 @@
                                 <td class="border-2">{{ $item->no_twoh }}</td>
                                 <td class="border-2">{{ date("d/m/Y", strtotime($item->tdt)) }}</td>
                                 <td class="border-2">{{ $item->carstat }}</td>
+                                <td class="border-2">-</td>
+                                <td class="border-2">-</td>
+                                <td class="border-2">-</td>
                             </tr>
                             @php
                             $number++;

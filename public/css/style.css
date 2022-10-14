@@ -48,7 +48,7 @@
 }
 
 .image-area::before {
-    content: "Uploaded image result";
+    content: "Image";
     color: rgba(37, 147, 238);
     font-weight: bold;
     text-transform: uppercase;
